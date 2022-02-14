@@ -1,4 +1,23 @@
 Lab 1 -
   https://en.wikipedia.org/wiki/JavaScript_library
   https://en.wikipedia.org/wiki/Angular_(web_framework)
+  https://www.typescriptlang.org/docs/handbook/intro.html
   
+  Installing Angular
+    NodeJS installation
+        https://nodejs.org/dist/v16.14.0/node-v16.14.0-x64.msi
+        confirm node installation -> node -v on cmd prompt
+    AngularCLI installation
+      cmd>npm install -g @angular/cli@8.3.29
+      cmd>ng  (to confirm angularcli installation)
+    create a application
+      create a directory(fulcrumangular) on c:\
+      go into that directory
+      c:\fulcrumangular>ng new demo1
+          Routing -> N
+          Styling -> CSS
+      c:\fulcrumangular>cd demo1
+      c:\fulcrumangular\demo1>ng serve
+      
+      Browser -> http://localhost:4200/
+
